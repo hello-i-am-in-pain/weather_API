@@ -1,9 +1,11 @@
 <script setup>
 defineProps({
   city: { type: String, default: 'Miami, FL' },
-  temp: { type: String, default: '18°' },
+  temp: { type: String, default: `${dissigmundTest}°` },
   condition: { type: String, default: 'Mostly Cloudy' },
 })
+
+const dissigmundTest = 45
 </script>
 
 <template>

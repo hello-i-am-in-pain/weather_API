@@ -19,7 +19,7 @@ const hourlyForecast = [
   >
     <!-- Header/Logo Area -->
     <div class="text-center">
-      <h1 class="text-2xl font-bold tracking-widest uppercase opacity-50">Weather Pro</h1>
+      <h1 class="text-2xl font-bold tracking-widest uppercase opacity-50">Web Weather Pro</h1>
     </div>
 
     <!-- Main Content Layout -->
@@ -28,7 +28,7 @@ const hourlyForecast = [
     >
       <!-- Left Column: Display and Forecast -->
       <div class="flex flex-col items-center space-y-8 w-full">
-        <WeatherDisplay city="Montreal, Canada" temp="8°" condition="Rainy" />
+        <WeatherDisplay city="Montreal, Canada" condition="Rainy" />
 
         <ForecastCard title="Hourly Forecast" :items="hourlyForecast" />
       </div>

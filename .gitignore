@@ -2,3 +2,4 @@ Weather_App_Frontend/node_modules/
 Weather_App_Frontend/dist/
 *.log
 node_modules
+.env
