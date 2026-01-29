@@ -1,0 +1,14 @@
+{
+  "name": "weather_app_backend",
+  "version": "1.0.0",
+  "description": "A fullstack web app with my own CRUD Weather API that connects to a 3rd Party Weather Database. Stored in a Redis Cache and the Frontend was developed using Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
